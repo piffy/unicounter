@@ -25,19 +25,37 @@ public class ContatoreUniversale {
     //TODO toString -> Task 6
     
     public static void main(String args[]) {
-    //Test of counter
+    //TODO Test of counter
         ContatoreUniversale c = new ContatoreUniversale();
         System.out.println("Valore (dovrebbe essere 0):"+c);
-    //Test of Incrementa -> Task 7
+    //TODO Test di Incrementa -> Task 7
 
-    //Test of Incrementa con quantità di incremento  -> Task 8   
+    //TODO Test di Incrementa con quantità di incremento  -> Task 8   
         
-    //Test of Contatore con Inizializzatore -> Task 9
+    //TODO Test di Contatore con Inizializzatore -> Task 9
         
-    //Test of Comparable interface -> Task 10
+    //TODO Test di Comparable interface -> Task 10
         
-    //Test of ResetToInitialvalue() -> Task 11  
+    //TODO Test di ResetToInitialvalue() -> Task 11  
     
     
     }
+    //TODO Rendere x privato, creando costruttore getter e setter () -> Task 12
+    
+    //TODO Aggiungere costruttore() -> Task 14
+    
+    //TODO toString con output in binario -> Task 15
+    
+    //TODO toString con output in esadecimale -> Task 16
+    
+    //TODO toString con output in ottale -> Task 17
+    
+    //TODO Decrementa() -> Task 17
+    
+    //TODO Decrementa(int decremento) -> Task 18
+    
+    //TODO SetTetto(int tetto) - se diverso da zero, il contatore non puo aumentare oltre tale limite -> Task 19
+    
+    //TODO SetCircolare() - se presento un tetto, un ulteriore incremento azzera il contatore. -> Task 20
+    
 }
