@@ -18,7 +18,7 @@ public class Main {
      */
     public static void main(String args[]) {
    
-       ContatoreUniversale cu=new ContatoreUniversale();
+       ContatoreUniversale cu=new ContatoreUniversale(0);
        System.out.println("Applicazione demo per counter");
        System.out.println("Valore attuale: "+cu);
        
