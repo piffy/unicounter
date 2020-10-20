@@ -16,6 +16,9 @@ public class ContatoreUniversale {
 
     //TODO Contatore con Inizializzatore -> Task 2   
     
+    public static void incrementa(){
+        
+    }
     //TODO Incrementa() -> Task 3
     
     //TODO Incrementa(int incremento) -> Task 4
