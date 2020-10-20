@@ -1,4 +1,5 @@
 package contatoreuniversale;
+import java.util.Scanner;
 
 /**
  *Questa classe dovrebbe fornire tutte le funzionalità per 
@@ -26,6 +27,10 @@ public class ContatoreUniversale {
     
     public static void main(String args[]) {
     //TODO Test of counter
+        
+        
+        
+        
         ContatoreUniversale c = new ContatoreUniversale();
         System.out.println("Valore (dovrebbe essere 0):"+c);
     //TODO Test di Incrementa -> Task 7
@@ -57,5 +62,11 @@ public class ContatoreUniversale {
     //TODO SetTetto(int tetto) - se diverso da zero, il contatore non puo aumentare oltre tale limite -> Task 19
     
     //TODO SetCircolare() - se presento un tetto, un ulteriore incremento azzera il contatore. -> Task 20
+    
+    private void IncrementaDi20(){
+        
+       x=x+20;
+       
+    }
     
 }
