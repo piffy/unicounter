@@ -13,8 +13,8 @@ package contatoreuniversale;
 public class ContatoreUniversale {
 
     int x;
-
-    //TODO Contatore con Inizializzatore -> Task 2   
+    
+    public ContatoreUniversale(int x) { this.x = x; }   
     
     //TODO Incrementa() -> Task 3
     
@@ -26,7 +26,7 @@ public class ContatoreUniversale {
     
     public static void main(String args[]) {
     //TODO Test of counter
-        ContatoreUniversale c = new ContatoreUniversale();
+        ContatoreUniversale c = new ContatoreUniversale(0);
         System.out.println("Valore (dovrebbe essere 0):"+c);
     //TODO Test di Incrementa -> Task 7
 
